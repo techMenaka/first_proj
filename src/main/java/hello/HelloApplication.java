@@ -14,8 +14,8 @@ import java.util.Arrays;
 @SpringBootApplication
 public class HelloApplication {
 
-   /*HelloApplication public static void main(String[] args) {
-       // ApplicationContext ctx = SpringApplication.run(HelloApplication.class, args);
+   public static void main(String[] args) {
+        //ApplicationContext ctx = SpringApplication.run(HelloApplication.class, args);
         ApplicationContext ctx= new AnnotationConfigApplicationContext(HelloApplication.class);
         System.out.println("Let's inspect the beans provided by Spring Boot:");
 
@@ -24,18 +24,18 @@ public class HelloApplication {
         for (String beanName : beanNames) {
             System.out.println(beanName);
         }
-    }*/
+    }
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         try {
-            new AnnotationConfigApplicationContext(HelloApplication.class);
-            String string = "{\"name\":\"menaka\"}";
+            ApplicationContext cntx = new AnnotationConfigApplicationContext(HelloApplication.class);
+//hit the url http://localhost:8080/helloExample
         } catch (Exception e) {
             e.printStackTrace();
         }
 
 
-    }
+    }*/
 
     //<editor-fold desc="Description">
     String sting = "SELECT * FROM tale";
