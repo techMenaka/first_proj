@@ -25,3 +25,4 @@ logs
 *.DS_Store
 
 .gradletasknamecache
+.idea/workspace.xml
